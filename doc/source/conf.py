@@ -793,6 +793,30 @@ man_pages = [
         [author_evenr],
         1,
     ),
+    (
+        "programs/gdal2xyz",
+        "gdal2xyz",
+        "Translates a raster file into xyz format.",
+        [author_frankw, author_evenr],
+        1,
+    ),
+    (
+        "programs/gdalenhance",
+        "gdalenhance",
+        "Enhance an image with LUT-based contrast enhancement.",
+        [author_frankw, author_evenr],
+        1,
+    ),
+    (
+        "programs/gdalattachpct",
+        "gdalattachpct",
+        "Attach a color table to a raster file from an input file.",
+        [
+            author_frankw,
+            "Idan Miara <idan@miara.com>",
+        ],
+        1,
+    ),
 ]
 
 
